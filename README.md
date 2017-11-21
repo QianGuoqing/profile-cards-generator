@@ -7,3 +7,5 @@
 
 **描述**
 使用JavaScript实现一个添加删除用户信息的页面
+![](/Users/qianguoqing/Desktop/app.jpeg)
+
