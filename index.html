@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>profile cards generator</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-6 col-md-3 form-container">
+        <form id="myForm">
+          <div class="form-group">
+            <label for="user_name">姓名</label>
+            <input type="text" placeholder="请输入姓名" class="form-control" id="user_name">
+          </div>
+          <div class="form-group">
+            <label for="user_email">邮箱</label>
+            <input type="email" placeholder="请输入邮箱" class="form-control" id="user_email">
+          </div>
+          <div class="form-group">
+            <label for="user_age">年龄</label>
+            <input type="number" placeholder="请输入年龄" class="form-control" id="user_age">
+          </div>
+          <input type="submit" class="btn btn-block btn-primary" value="添加用户">
+        </form>
+      </div>
+      <div class="col-xs-12 col-md-9 content-container">
+        <div class="row" id="parent_avatar">
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-delete" data-card="">x</div>
+              <div class="card-block">
+                <h3 class="card-title">Lara Barbosa</h3>
+                <p class="card-text">
+                  <strong>邮箱：</strong>Lara@gmail.com
+                </p>
+                <p class="card-text">
+                  <strong>年龄：</strong>25
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="./js/main.js"></script>
+</html>
